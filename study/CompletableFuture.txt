@@ -17,3 +17,9 @@ public class CompletableFuture<T> implements Future<T>, CompletionStage<T> {
 
 future의 경우에는 isDone, isCanceled 밖에 제공을 하지 않는데
 completableFuture의 경우에는 isDone, isCompletedExceptionally, isCanceled를 제공을 해주어서 더 정교하게 작업 가능하다.
+
+
+CompletableFuture의 한계
+    - 지연 로딩 기능을 제공하지 않는다.
+    - CompletableFuture를 반환하는 함수를 호출 시 즉시 작업이 실행된다.
+    - CompletableFuture에서 데이터를 반환하고 나면 다시 다른 값을 전달하기 어렵다.

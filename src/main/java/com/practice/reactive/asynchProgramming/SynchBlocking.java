@@ -1,4 +1,4 @@
-package com.practice.reactive.asynchBlocking;
+package com.practice.reactive.asynchProgramming;
 
 import lombok.extern.slf4j.Slf4j;
 
