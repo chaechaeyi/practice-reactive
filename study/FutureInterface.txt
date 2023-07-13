@@ -68,3 +68,5 @@ CompletableFuture
     - 반환된 결과를 get() 해서 접근하기 때문에 비동기 처리가 어렵다.
     - 완료되거나 에러가 발생했는지 구분하기 어렵다.
 
+
+exception handling 어렵다.
